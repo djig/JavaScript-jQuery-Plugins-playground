@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+    <head>
+        <script src="http://10.13.65.69/DDWeb/Scripts/jQuery191.js" type="text/javascript"></script>
+       <script src="JS/bt.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="CSS/bt.css">
+      </head>
+<body>
+<script>
+       
+   $(document).ready(function () {  
+        console.log("testdssd111"); 
+        $('#tblBar1').TableBar([{
+            name: 'Sample Table',
+            local: [{ col1: " ROW1Col1Val", col2:"ROW1Col2Val"} ,
+                     { col1: "ROW2Col1Val", col2:"ROW2Col2Val"}],
+            header: '<b>Sample</b>',
+            template: '<p>{{value}} </p>' 
+       },
+
+        {
+            name: 'Sample2 Table',
+            local: [{ col1: " ROW1Col1Val", col2:"ROW1Col2Val"}  ],
+            header: '<b>Sample2</b>',
+            template: '<p>{{value}} </p>' 
+       }
+       ]);
+        
+    });
+</script>
+
+
+
+
+<div class="tblContainer">
+       <div class="tblLayout">
+                 <div class="tblrow">
+                     <div class="tblCells tblheader">Col1</div>
+                     <div class="tblCells tblheader">Col2 </div>
+                </div>
+                 <div class="tblrow">
+                     <div class="tblCells"><a href="http://www.w3schools.com/html/">Visit our HTML tutorial</a></div>
+                     <div class="tblCells">JS</div>
+                </div>
+                
+                <div class="tblrowR">
+                     <div class="tblCells">2</div>
+                     <div class="tblCells">PHP</div>
+                </div>
+       </div>
+ 
+       <div class="tblLayoutBar">
+           <div class="tblrowR">
+                       <div align="right" class=tblCellsBar >
+                            <div align="right" id="chtParticipant_1"  > 
+                                    <div class=cellbar  style=" width: 100px;  
+                                              background-color: rgba(141, 152, 187,.5);">
+                                      </div>
+
+                             </div>
+                        </div>
+            </div>
+             <div class="tblrowR">
+                   <div align="right" class=tblCellsBar >
+                        <div align="right" id="chtParticipant_1"  > 
+                                <div class=cellbar  style=" width: 180px;  
+                                          background-color: rgba(141, 152, 187,.5);">
+                                  </div>
+
+                         </div>
+                    </div>
+        </div>
+        </div>
+
+ <div id="tblBar1">
+</div>
+
+ <div id="tblBar2">
+</div>
+
+</body>
+</html>

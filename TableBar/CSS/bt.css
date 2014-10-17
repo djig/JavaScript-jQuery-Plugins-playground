@@ -1,0 +1,82 @@
+/*
+	bt.css  version 1.0
+	Author: Jignesh Dhamecha
+    
+*/
+.tblContainer {
+  
+    position: relative;
+}
+
+.tblLayout {
+    display:table;
+	font-family: Helvetica;
+	font-size: 11px;
+	position: absolute;
+    top: 0;
+    left: 0;
+	z-index:10;
+}
+
+
+.tblLayoutBar {
+    display:table;
+	font-family: Helvetica;
+	font-size: 11px;
+	position: absolute;
+    top: 20;
+    left: 0;
+ 
+ 
+
+
+}
+.tblheader{
+  	color: white;
+	background-color: rgba(141, 152, 187,.5);
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+ .tblCells {
+    display: table-cell;
+	width:100px;
+	text-align: left;
+ 	padding-top:5px;
+}
+
+.tblCellsR {
+    display: table-cell;
+	width:100px;
+	text-align: right;
+ 	padding-top:5px;
+	
+}
+ .tblCellsBar {
+    display: table-cell;
+	width:200px;
+	text-align: right;
+ 	padding-top:5px;
+}
+ .tblrowspan2{ 
+ width:200px;
+     display:table-row;
+    text-align:right;
+}
+.tblrow{  
+     display:table-row;
+    text-align: left;
+}
+.tblrowR{  
+     display:table-row;
+    text-align: right;
+	 
+}
+ .cellbar{
+ 	height: 16px; 
+ 	opacity: 0.33; 
+ 	border: 1px solid rgba(185, 184, 184, 0.298039); 
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    border-bottom-left-radius: 5px;
+ }
