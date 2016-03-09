@@ -90,7 +90,7 @@ class BTree {
        private int[] left;
        private int root;
        private int[] right;
-
+//s
    // constructor
     public BTree() {
      
